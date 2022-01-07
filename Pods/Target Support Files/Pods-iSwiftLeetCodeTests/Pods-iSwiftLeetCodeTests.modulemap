@@ -1,0 +1,6 @@
+framework module Pods_iSwiftLeetCodeTests {
+  umbrella header "Pods-iSwiftLeetCodeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
