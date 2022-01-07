@@ -15,6 +15,8 @@
 		5D509E4F2788540F00A02659 /* iSwiftLeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D509E4E2788540F00A02659 /* iSwiftLeetCodeTests.swift */; };
 		5D509E592788540F00A02659 /* iSwiftLeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D509E582788540F00A02659 /* iSwiftLeetCodeUITests.swift */; };
 		5D509E5B2788540F00A02659 /* iSwiftLeetCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D509E5A2788540F00A02659 /* iSwiftLeetCodeUITestsLaunchTests.swift */; };
+		5D509E6B2788582B00A02659 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D509E6A2788582B00A02659 /* TreeNode.swift */; };
+		5D509E6D278858AD00A02659 /* BalancedBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D509E6C278858AD00A02659 /* BalancedBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5D509E542788540F00A02659 /* iSwiftLeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSwiftLeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D509E582788540F00A02659 /* iSwiftLeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwiftLeetCodeUITests.swift; sourceTree = "<group>"; };
 		5D509E5A2788540F00A02659 /* iSwiftLeetCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iSwiftLeetCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D509E6A2788582B00A02659 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		5D509E6C278858AD00A02659 /* BalancedBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancedBinaryTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		5D509E362788540E00A02659 /* iSwiftLeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				5D509E67278857F300A02659 /* LeetCode */,
 				5D509E372788540E00A02659 /* AppDelegate.swift */,
 				5D509E392788540E00A02659 /* SceneDelegate.swift */,
 				5D509E3B2788540E00A02659 /* MainViewController.swift */,
@@ -122,6 +127,31 @@
 				5D509E5A2788540F00A02659 /* iSwiftLeetCodeUITestsLaunchTests.swift */,
 			);
 			path = iSwiftLeetCodeUITests;
+			sourceTree = "<group>";
+		};
+		5D509E67278857F300A02659 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				5D509E692788581800A02659 /* Models */,
+				5D509E68278857FD00A02659 /* Tree */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		5D509E68278857FD00A02659 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				5D509E6C278858AD00A02659 /* BalancedBinaryTree.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		5D509E692788581800A02659 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D509E6A2788582B00A02659 /* TreeNode.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +287,8 @@
 				5D509E3C2788540E00A02659 /* MainViewController.swift in Sources */,
 				5D509E382788540E00A02659 /* AppDelegate.swift in Sources */,
 				5D509E3A2788540E00A02659 /* SceneDelegate.swift in Sources */,
+				5D509E6B2788582B00A02659 /* TreeNode.swift in Sources */,
+				5D509E6D278858AD00A02659 /* BalancedBinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
